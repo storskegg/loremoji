@@ -121,14 +121,14 @@ func main() {
  * [...document.querySelectorAll('.code')].map((v, k) => parseInt(v.innerText.split(' ')[0].replace('U+', '0x'), 16)).filter(a => a > 100000).sort()
  */
 
-func validatePackageName(name string) bool {
-	if name == "" {
-		return false
-	}
-
-	if strings.ContainsAny(name, ".-") {
-		return false
-	}
-
-	return true
-}
+//func validatePackageName(name string) bool {
+//	if name == "" {
+//		return false
+//	}
+//
+//	if strings.ContainsAny(name, ".-") {
+//		return false
+//	}
+//
+//	return true
+//}
